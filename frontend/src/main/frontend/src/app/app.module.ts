@@ -3,14 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
-import { AlertModule } from 'ngx-bootstrap';
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule, AlertModule.forRoot()
+    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]
